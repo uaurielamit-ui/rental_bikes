@@ -1,32 +1,32 @@
 class Bike:
-    def __init__(self, bike_id ,model, bike_type ,price_hourly ,price_daily ,available_is ,operational_is):
+    def __init__(self, bike_id ,model, bike_type ,price_hourly ,price_daily ,is_available ,is_operational):
         self.bike_id = bike_id
         self.model = model
         self.bike_type = bike_type
         self.price_hourly =price_hourly
         self.price_daily = price_daily 
-        self.available_is = available_is 
-        self.operational_is = operational_is
+        self.is_available = is_available 
+        self.is_operational = is_operational
 
     def available(self):
-        self.available_is = True
+        self.is_available = True
     def unavalable(self):
-        self.available_is = False    
+        self.is_available = False    
 
     def operational(self):
-        self.operational_is = True
+        self.is_operational = True
     def unoperational(self):
-        self.operational_is = False
+        self.is_operational = False
 
     def to_dict(self):
-        bike_dikt = {
+        return {
         "bike_id" : self.bike_id,
         "model" : self.model,
         "bike_type" : self.bike_type,
         "hourly_price" : self.price_hourly,
         "daily_price" : self.price_daily,
-        "is_available" : self.available_is, 
-        "is_operational" : self.operational_is
+        "is_available" : self.is_available, 
+        "is_operational" : self.is_operational
         }
 
     @classmethod
