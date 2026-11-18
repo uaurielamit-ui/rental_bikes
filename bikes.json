@@ -1,0 +1,56 @@
+[
+{
+"bike_id": "B001",
+"model": "Urban Pro",
+"bike_type": "Regular",
+"hourly_price": 20,
+"daily_price": 100,
+"is_available": true,
+"is_operational": true
+},
+{
+"bike_id": "B002",
+"model": "Mountain X",
+"bike_type": "Mountain",
+"hourly_price": 30,
+"daily_price": 150,
+"is_available": true,
+"is_operational": true
+},
+{
+"bike_id": "B003",
+"model": "Electric Plus",
+"bike_type": "Electric",
+"hourly_price": 40,
+"daily_price": 200,
+"is_available": true,
+"is_operational": true
+},
+{
+"bike_id": "B004",
+"model": "Urban Basic",
+"bike_type": "Regular",
+"hourly_price": 15,
+"daily_price": 80,
+"is_available": true,
+"is_operational": true
+},
+{
+"bike_id": "B005",
+"model": "Mountain Pro",
+"bike_type": "Mountain",
+"hourly_price": 35,
+"daily_price": 180,
+"is_available": false,
+"is_operational": true
+},
+{
+"bike_id": "B006",
+"model": "Electric City",
+"bike_type": "Electric",
+"hourly_price": 45,
+"daily_price": 220,
+"is_available": true,
+"is_operational": false
+}
+]

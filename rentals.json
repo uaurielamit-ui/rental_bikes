@@ -1,0 +1,68 @@
+[
+  {
+    "rental_id": "R001",
+    "customer_name": "David Cohen",
+    "bike_id": "B005",
+    "start_datetime": "2026-11-15T09:00:00",
+    "expected_return_datetime": "2026-11-15T12:00:00",
+    "actual_return_datetime": null,
+    "total_price": 105,
+    "late_fee": 0,
+    "status": "Active"
+  },
+  {
+    "rental_id": "R002",
+    "customer_name": "Sarah Levi",
+    "bike_id": "B001",
+    "start_datetime": "2026-11-10T10:00:00",
+    "expected_return_datetime": "2026-11-10T13:00:00",
+    "actual_return_datetime": "2026-11-10T13:30:00",
+    "total_price": 60,
+    "late_fee": 20,
+    "status": "Completed"
+  },
+  {
+    "rental_id": "R003",
+    "customer_name": "Moshe Israel",
+    "bike_id": "B003",
+    "start_datetime": "2026-11-11T08:00:00",
+    "expected_return_datetime": "2026-11-12T08:00:00",
+    "actual_return_datetime": "2026-11-12T08:00:00",
+    "total_price": 200,
+    "late_fee": 0,
+    "status": "Completed"
+  },
+  {
+    "rental_id": "R004",
+    "customer_name": "Rachel Mizrahi",
+    "bike_id": "B002",
+    "start_datetime": "2026-11-12T09:00:00",
+    "expected_return_datetime": "2026-11-12T14:00:00",
+    "actual_return_datetime": "2026-11-12T17:30:00",
+    "total_price": 150,
+    "late_fee": 100,
+    "status": "Completed"
+  },
+  {
+    "rental_id": "R005",
+    "customer_name": "David Cohen",
+    "bike_id": "B004",
+    "start_datetime": "2026-11-13T10:00:00",
+    "expected_return_datetime": "2026-11-13T12:00:00",
+    "actual_return_datetime": "2026-11-13T12:00:00",
+    "total_price": 30,
+    "late_fee": 0,
+    "status": "Completed"
+  },
+  {
+    "rental_id": "R006",
+    "customer_name": "a",
+    "bike_id": "B004",
+    "start_datetime": "2026-12-12T12:30",
+    "expected_return_datetime": "2026-12-12T20:00",
+    "actual_return_datetime": null,
+    "total_price": 0,
+    "late_fee": 0,
+    "status": "Active"
+  }
+]
