@@ -20,13 +20,13 @@ class Bike:
 
     def to_dict(self):
         bike_dikt = {
-        ["bike_id"] : self.bike_id,
-        ["model"] : self.model,
-        ["bike_type"] : self.bike_type,
-        ["hourly_price"] : self.price_hourly,
-        ["daily_price"] : self.price_daily,
-        ["is_available"] : self.available_is, 
-        ["is_operational"] : self.operational_is
+        "bike_id" : self.bike_id,
+        "model" : self.model,
+        "bike_type" : self.bike_type,
+        "hourly_price" : self.price_hourly,
+        "daily_price" : self.price_daily,
+        "is_available" : self.available_is, 
+        "is_operational" : self.operational_is
         }
 
     @classmethod

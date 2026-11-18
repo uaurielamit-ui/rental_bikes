@@ -1,6 +1,7 @@
 import maneg
 import helpers
 import rental
+import bikes_m
 
 def main():
     to_exit = False
@@ -23,6 +24,7 @@ def main():
 
 
 def main_bike():
+    b = bikes_m.BikeManeger()
     to_exit = False
     while not to_exit:
         client_choice = input("""
@@ -30,10 +32,12 @@ def main_bike():
               bikes maneger
         ========================
         0.exit
-
+        1.show all bike
         """)
         if client_choice == "0":
             to_exit = True
+        if client_choice == "1":
+            b.show_all_bikes()
 
 
 
